@@ -27,11 +27,7 @@ scalacOptions := Seq(
 
 sbtPlugin := true
 
-scriptedBufferLog := false
-
-scriptedLaunchOpts ++= Seq("-Xmx1024M", "-Dplugin.version=" + version.value)
-
-crossSbtVersions := Vector("0.13.16", "1.1.0")
+crossSbtVersions := Vector("0.13.18", "1.3.13")
 
 val amazonSDKVersion = "1.11.507"
 
